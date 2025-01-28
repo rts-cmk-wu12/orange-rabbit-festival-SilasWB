@@ -1,0 +1,36 @@
+.participant-box {
+  background: #FFFFFF;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 24px;
+  margin: 16px 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.participant-box:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.participant-box h5 {
+  color: #1E1E1E;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 8px;
+}
+
+.participant-box p {  
+  color: #4A4A4A;
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+.form-container-two {
+  background-color: #FFFFFF;
+  height: 828px;
+  width: 100%;
+  padding: 2.5em;
+}

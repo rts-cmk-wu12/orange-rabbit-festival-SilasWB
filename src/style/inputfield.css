@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* App Styles */
+.form-wrap-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+
+}
+
+
+/* Event Text Styles */
+.form-container{
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 828px;
+}
+.text-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1em;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.1);
+}
+
+.text-container h3 {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.text-container h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.text-container p, .text-container svg {
+font-weight: 700;
+display: flex;
+gap: 0.5em;
+}
+
+/* Input Form Styles */
+.input-form {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.form-container-group {
+    padding: 1em;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+label {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 36px;
+    color: #1E1E1E;
+    letter-spacing: -0.02em;
+  }
+
+.form-group input {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  background-color: #fafafa;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #FF6B00;
+  box-shadow: 0 0 0 2px rgba(255, 107, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.form-group input::placeholder {
+  color: #9E9E9E;
+  font-size: 0.9rem;
+}
+
+.form-group input[type="date"] {
+  color: #333;
+  font-family: inherit;
+}
+
+button[type="submit"] {
+  width: 255px;
+  background-color: #FF6B00;
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  transition: all 0.3s ease;
+}
+    button[type="submit"] svg {
+      font-size: 0.875rem;
+    }
